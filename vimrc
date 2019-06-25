@@ -60,7 +60,7 @@ set directory   =$HOME/.vim/files/swap//
 set updatecount =100
 set undofile
 set undodir     =$HOME/.vim/files/undo/
-set viminfo     ='100,n$HOME/.vim/files/info/viminfo
+set viminfo     ='100,n$HOME/.viminfo
 " 设置默认进行大小写不敏感查找
 set ignorecase
 " 如果有一个大写字母，则切换到大小写敏感查找
