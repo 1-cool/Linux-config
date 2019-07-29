@@ -56,7 +56,7 @@ set backup
 set backupdir   =$HOME/.vim/files/backup/
 set backupext   =-vimbackup
 set backupskip  =
-set directory   =$HOME/.vim/files/swap//
+set directory   =$HOME/.vim/files/swap/
 set updatecount =100
 set undofile
 set undodir     =$HOME/.vim/files/undo/
@@ -65,6 +65,12 @@ set viminfo     ='100,n$HOME/.viminfo
 set ignorecase
 " 如果有一个大写字母，则切换到大小写敏感查找
 set smartcase
+" 高亮设置
 highlight Search ctermbg=yellow ctermfg=black
 highlight IncSearch ctermbg=black ctermfg=yellow
 highlight MatchParen cterm=underline ctermbg=NONE ctermfg=NONE
+" 插件管理器
+call plug#begin('~/.vim/plugged')
+Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
+call plug#end()
+
