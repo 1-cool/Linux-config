@@ -69,8 +69,3 @@ set smartcase
 highlight Search ctermbg=yellow ctermfg=black
 highlight IncSearch ctermbg=black ctermfg=yellow
 highlight MatchParen cterm=underline ctermbg=NONE ctermfg=NONE
-" 插件管理器
-call plug#begin('~/.vim/plugged')
-Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
-call plug#end()
-
