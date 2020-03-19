@@ -53,13 +53,13 @@ endif
 " Put all temporary files under the same directory.
 " https://github.com/mhinz/vim-galore#handling-backup-swap-undo-and-viminfo-files
 set backup
-set backupdir   =$HOME/.vim/files/backup/
+set backupdir   =$HOME/.vim/backup/
 set backupext   =-vimbackup
 set backupskip  =
-set directory   =$HOME/.vim/files/swap/
+set directory   =$HOME/.vim/swap/
 set updatecount =100
 set undofile
-set undodir     =$HOME/.vim/files/undo/
+set undodir     =$HOME/.vim/undo/
 set viminfo     ='100,n$HOME/.viminfo
 " 设置默认进行大小写不敏感查找
 set ignorecase
