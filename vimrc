@@ -8,6 +8,10 @@ set nocompatible
 
 filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
+color elflord              " 设置高亮颜色
+set background=dark
+
+set number                 " 显示行号
 
 set autoindent             " Indent according to previous line.
 set expandtab              " Use spaces instead of tabs.
@@ -47,7 +51,7 @@ endif
 " The fish shell is not very compatible to other shells and unexpectedly
 " breaks things that use 'shell'.
 if &shell =~# 'fish$'
-  set shell=/bin/bash
+  set shell=/bin/zsh
 endif
 
 " Put all temporary files under the same directory.
