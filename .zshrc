@@ -99,3 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias unsetproxy="unset ALL_PROXY"
