@@ -73,3 +73,7 @@ set smartcase
 highlight Search ctermbg=yellow ctermfg=black
 highlight IncSearch ctermbg=black ctermfg=yellow
 highlight MatchParen cterm=underline ctermbg=NONE ctermfg=NONE
+
+if has('mouse')
+    set mouse-=a
+endif
